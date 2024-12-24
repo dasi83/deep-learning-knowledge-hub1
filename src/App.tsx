@@ -7,7 +7,9 @@ import { Navigation } from "./components/Navigation";
 import { Footer } from "./components/Footer";
 import { CookieConsent } from "./components/CookieConsent";
 import Index from "./pages/Index";
-import Learning from "./pages/Learning";
+import DeepLearning from "./pages/DeepLearning";
+import NeuralNetworks from "./pages/NeuralNetworks";
+import MachineLearning from "./pages/MachineLearning";
 import Impressum from "./pages/Impressum";
 import Datenschutz from "./pages/Datenschutz";
 
@@ -23,7 +25,9 @@ const App = () => (
           <Navigation />
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/learning" element={<Learning />} />
+            <Route path="/deep-learning" element={<DeepLearning />} />
+            <Route path="/neural-networks" element={<NeuralNetworks />} />
+            <Route path="/machine-learning" element={<MachineLearning />} />
             <Route path="/impressum" element={<Impressum />} />
             <Route path="/datenschutz" element={<Datenschutz />} />
           </Routes>

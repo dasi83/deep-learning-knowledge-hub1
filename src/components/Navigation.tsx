@@ -9,7 +9,9 @@ export const Navigation = () => {
 
   const links = [
     { href: "/", label: "Home" },
-    { href: "/learning", label: "Lerninhalte" },
+    { href: "/deep-learning", label: "Deep Learning" },
+    { href: "/neural-networks", label: "Neuronale Netze" },
+    { href: "/machine-learning", label: "Machine Learning" },
     { href: "/impressum", label: "Impressum" },
     { href: "/datenschutz", label: "Datenschutz" },
   ];
